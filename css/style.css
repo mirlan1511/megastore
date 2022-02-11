@@ -1,0 +1,80 @@
+.container{
+    position: absolute;
+    width: 664px;
+    height: 576px;
+    left: 388px;
+    top: 248px;
+    background: #FFFFFF;
+    /* тень на карточки */
+    box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+}
+
+.h3{
+    font-weight: bold;
+    position: absolute;
+    width: 478px;
+    height: 24px;
+    left: 408px;
+    top: 288px;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.pasport{
+    align-items: ;
+}
+
+.personal-data{
+    position: absolute;
+    width: 332px;
+    height: 16px;
+    left: 412px;
+    top: 336px;
+    font-family: Sora;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.pasport-data{
+    margin-top: 15px;
+}
+
+form{
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    background-color: black;
+    color: bisque;
+    position: absolute;
+    width: 384px;
+    height: 48px;
+    left: 528px;
+    top: 736px;
+}
+
+.btn {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: absolute;
+    width: 384px;
+    height: 48px;
+
+    background: #232529; /*Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 4px; /* Скругляем уголки */
+    border: 1px solid gray;
+}
+

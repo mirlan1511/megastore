@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h3>Анкета для корпоративных клиентов</h3>
+
+        <p class="personal-data">Личные данные</p>
+
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Фамилия" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Имя" aria-label="Last name">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Отчества" aria-label="Last name">
+              </div>
+        </div>
+        
+        <p class="pasport-data">Паспортные данные</p>
+        <div class="row">
+            <div class="col">
+                <input type="date" class="form-control" id="date" name="date" placeholder="Дата" required>
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Место рождения по прописке" aria-label="Birtday">
+            </div>
+        </div>
+
+        <div class="pasport">
+            <div class="row mt-3">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Серийный номер AN/ID" aria-label="ID number">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="ИНН" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="date" class="form-control" id="date" name="date" placeholder="Дата получения" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Контактный номер" aria-label="number">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Электронный адрес" aria-label="email">
+            </div>
+            <div class="col">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Наименование банка</option>
+                    <option value="1">Optima Bank</option>
+                    <option value="2">Kyrgyzstan Bank</option>
+                    <option value="3">Bakai Bank</option>
+                </select>
+            </div>  
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Фактическое место проживание" aria-label="number">
+              </div>
+        </div>
+
+        <a href="http://localhost:63342/megastore/form1.html?" class="btn">Далее</a>
+    </div>
+
+    
+</body>
+</html>
