@@ -77,4 +77,14 @@ form{
     border-radius: 4px; /* Скругляем уголки */
     border: 1px solid gray;
 }
+ a{
+     position: absolute;
+     width: 100px;
+     height: 48px;
+     left: 100px;
+     top: 350px;
+
+     background: #232529;
+     border-radius: 4px;
+ }
 

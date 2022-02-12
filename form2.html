@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MegaStore</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <p>Сведение о кредите</p>
+    <p class="credit">Сведение о кредите</p>
     <div class="row mt-3">
         <div class="col">
             <input type="text" class="form-control" placeholder="Покупка телефона ( наименование товара)" aria-label="Name org">
@@ -39,14 +39,46 @@
 
     <div class="row mt-3">
         <div class="col">
-            <input type="number" placeholder="Стоимость товара" step="0.5" min="0" max="10000000">
+            <input type="text" class="form-control" placeholder="Стоимость товара" aria-label="Name org">
         </div>
         <div class="col">
-            <input type="number" placeholder="Количество товара" step="1.0" min="0" max="100000">
+            <input type="text" class="form-control" placeholder="Количество товара" aria-label="Name org">
         </div>
         <div class="col">
-            <input type="number" placeholder="Итого сумма кредита" step="1.0" min="0" max="10000000">
+            <input type="text" class="form-control" placeholder="Итого сумма кредита" aria-label="Name org">
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Вид кредита </option>
+                <option value="1">Потрибительский</option>
+                <option value="2">Агро-кредитование</option>
+                <option value="3">На покупку автомоибля</option>
+            </select>
+        </div>
+
+        <div class="col">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Срок кредита (мес.)</option>
+                <option value="1">6</option>
+                <option value="2">12</option>
+                <option value="3">24</option>
+                <option value="3">36</option>
+            </select>
         </div>
     </div>
 
+    <div class="row mt-3">
+        <div class="col">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Точка получения товара </option>
+                <option value="1">г.Бишкек</option>
+                <option value="2">Чуйская обл.</option>
+                <option value="3">Иссык-Кулькая обл.</option>
+                <option value="4">Баткенская обл.</option>
+                <option value="5">Нарынская обл.</option>
+            </select>
+        </div>
+        <a href="#" class="btn">Далее</a>
 </div>
