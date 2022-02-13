@@ -34,5 +34,28 @@ button{
     color: white;
     background: #232529;
     border-radius: 10px;
+}
 
+.block-1{
+    position: absolute;
+    width: 640px;
+    height: 328px;
+    left: 400px;
+    top: 344px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+.message{
+    text-align: center;
+}
+.image{
+    position: absolute;
+}
+.image img{
+    left: -0.2%;
+    right: 0.2%;
+    justify-content: center;
+
+    background: rgba(0, 0, 0, 0.03);
 }
